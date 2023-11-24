@@ -1,0 +1,19 @@
+.char {
+  text-align: center;
+  margin: 20px;
+}
+
+.charList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.char button {
+  width: 5rem;
+  padding: 1rem, 0.8rem, 1rem, 0.8rem;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: aqua;
+}
