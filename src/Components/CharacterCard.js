@@ -29,7 +29,7 @@ const CharacterCard = (props) => {
 
   return (
     <div className={classes.card}>
-    <img src={myImage} alt='card image' />
+    <img src={myImage} alt='character card' />
       {props.len > 3 && (
         <span
           className={classes.closeIcon}
